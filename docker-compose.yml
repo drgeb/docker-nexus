@@ -3,7 +3,8 @@ version: "2"
 services:
   nexus:
     container_name: nexus
-    image: sonatype/nexus
+    # image: sonatype/nexus3
+    image: klo2k/nexus3
     volumes:
       - "nexus-data:/sonatype-work"
     ports:
